@@ -1,0 +1,10 @@
+.design__typography__color {
+  position: relative;
+  border: 1px solid gainsboro;
+  display: flex;
+  height: 30px;
+}
+
+.design__typography__color:last-child {
+  border-right: 0;
+}

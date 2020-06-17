@@ -1,0 +1,55 @@
+.modal__editor-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__editor-link__content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.modal__editor-link__type {
+  position: relative;
+  border: 1px solid gainsboro;
+  display: flex;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.modal__editor-link__type:last-child {
+  border-right: 0;
+}
+
+.modal__editor-link__type__button {
+  position: relative;
+  flex: 1;
+  border: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+  border-right: 1px solid gainsboro;
+  outline: none;
+}
+
+.modal__editor-link__type__button:hover {
+  background-color: whitesmoke;
+}
+
+.modal__editor-link__type__button--active {
+  background-color: whitesmoke;
+}
+
+.modal__editor-link__type__button__icon {
+  position: relative;
+}

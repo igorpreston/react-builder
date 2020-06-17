@@ -1,0 +1,19 @@
+.modal__editor-fonts__font-list {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 30px);
+  display: flex;
+  flex-direction: column;
+}
+
+:global ReactVirtualized_Grid {
+  outline: none;
+}
+
+:global ReactVirtualized__List {
+  outline: none;
+}
+
+:global ReactVirtualized__Grid__innerScrollContainer {
+  outline: none;
+}

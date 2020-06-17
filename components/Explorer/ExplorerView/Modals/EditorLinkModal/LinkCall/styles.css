@@ -1,0 +1,35 @@
+.modal__editor-link__call {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__editor-link__call__wrapper {
+  position: relative;
+  display: flex;
+  border: 1px solid gainsboro;
+  margin: 5px 0;
+}
+
+.modal__editor-link__call__input {
+  position: relative;
+  width: 0;
+  flex: 1;
+  padding: 5px;
+  outline: none;
+  border: 0;
+}
+
+.modal__editor-link__call__icon {
+  position: relative;
+  padding: 5px;
+}
+
+.modal__editor-link__call__option {
+  position: relative;
+  display: flex;
+  margin: 5px 0;
+  align-items: center;
+  justify-content: space-between;
+  outline: none;
+}

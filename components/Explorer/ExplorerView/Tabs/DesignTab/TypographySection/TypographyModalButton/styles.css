@@ -1,0 +1,25 @@
+.design__typography__modal-button {
+  position: relative;
+  flex: 1;
+  border: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+  border-right: 1px solid gainsboro;
+  outline: none;
+}
+
+.design__typography__modal-button:hover {
+  background-color: whitesmoke;
+}
+
+.design__typography__modal-button--active {
+  background-color: whitesmoke;
+}
+
+.design__typography__modal-button__icon {
+  position: relative;
+}

@@ -1,0 +1,17 @@
+.modal__editor-link__section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.modal__editor-link__section__select {
+  position: relative;
+  padding: 5px;
+  outline: none;
+  border: 1px solid gainsboro;
+}
+
+.modal__editor-link__section__select > option {
+  border: 1px solid gainsboro;
+}

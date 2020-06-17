@@ -1,0 +1,32 @@
+.modal__editor-fonts__font-list__item {
+  position: relative;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid gainsboro;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.modal__editor-fonts__font-list__item:hover {
+  background-color: gainsboro;
+}
+
+.modal__editor-fonts__font-list__item__title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  user-select: none;
+}
+
+.modal__editor-fonts__font-list__item__variant {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.modal__editor-fonts__font-list__item__variant > i {
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+}

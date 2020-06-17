@@ -1,0 +1,16 @@
+.select-button {
+  width: 50px;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select-button:hover {
+  background-color: whitesmoke;
+}
+
+.select-button--current {
+  background-color: whitesmoke;
+}

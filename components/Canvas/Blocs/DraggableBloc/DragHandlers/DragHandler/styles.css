@@ -1,0 +1,32 @@
+.drag-handlers__handler {
+  position: absolute;
+  cursor: move;
+}
+
+.drag-handlers__handler--top {
+  top: -5px;
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+
+.drag-handlers__handler--left {
+  top: 0;
+  left: -5px;
+  bottom: 0;
+  width: 10px;
+}
+
+.drag-handlers__handler--right {
+  top: 0;
+  right: -5px;
+  bottom: 0;
+  width: 10px;
+}
+
+.drag-handlers__handler--bottom {
+  left: 0;
+  bottom: -5px;
+  right: 0;
+  height: 10px;
+}

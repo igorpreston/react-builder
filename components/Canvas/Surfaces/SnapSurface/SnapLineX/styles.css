@@ -1,0 +1,8 @@
+.snap-line-x {
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  z-index: 4;
+  background-color: lightblue;
+}

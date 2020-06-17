@@ -1,0 +1,8 @@
+.modal__editor-link__save__button {
+  position: relative;
+  border: 1px solid gainsboro;
+  background-color: gainsboro;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}

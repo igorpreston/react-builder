@@ -1,0 +1,6 @@
+.explorer__view__tab__design {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

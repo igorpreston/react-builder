@@ -1,0 +1,7 @@
+.base-bloc {
+  border: 2px solid lightblue;
+}
+
+.base-bloc--selected {
+  border: 2px solid orange;
+}

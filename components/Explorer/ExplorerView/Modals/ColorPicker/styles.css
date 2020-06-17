@@ -1,0 +1,18 @@
+.design__color-picker {
+  position: relative;
+  width: 100%;
+}
+
+.design__color-picker__hue, .design__color-picker__alpha {
+  position: relative;
+  width: 100%;
+  height: 15px;
+  margin: 5px 0;
+}
+
+.design__color-picker__saturation {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin: 5px 0;
+}
